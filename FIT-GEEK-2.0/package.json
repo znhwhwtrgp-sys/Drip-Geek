@@ -1,0 +1,12 @@
+{
+  "name": "fit-geek-2-desktop",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FIT-GEEK 2.0 – lokale Garderoben-App für macOS",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": { "@tauri-apps/cli": "^2.8.4" }
+}
